@@ -1,6 +1,6 @@
 <?php
 
-namespace synatree\dynamicrelations\controllers;
+namespace zergbz1988\dynamicrelations\controllers;
 
 use Yii;
 use yii\web\Controller;

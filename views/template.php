@@ -1,5 +1,5 @@
 <?php
-	use synatree\dynamicrelations\SynatreeAsset;
+	use zergbz1988\dynamicrelations\SynatreeAsset;
 
 	SynatreeAsset::register($this);
 ?>

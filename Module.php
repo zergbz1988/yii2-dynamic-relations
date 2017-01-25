@@ -1,6 +1,6 @@
 <?php
 
-namespace synatree\dynamicrelations;
+namespace zergbz1988\dynamicrelations;
 
 class Module extends \yii\base\Module
 {
