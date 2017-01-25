@@ -11,9 +11,10 @@ class LoadController extends Controller
 	{
 		if( $args = Yii::$app->session->get('dynamic-relations-'.$hash))
 		{
-		   echo $this->render( $args['path'], [
+		    echo $this->render( $args['path'], [
 			'model' => new $args['cls'],
-		   ]);	
+            'parentModel' => $args['parent']
+            ]);
 		}
 
 	}

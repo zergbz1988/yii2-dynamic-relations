@@ -33,7 +33,7 @@ class DynamicRelations extends Widget
 		}
 		$key = "dynamic-relations-$type";
 		$hash = crc32($key);
-		Yii::$app->session->set('dynamic-relations-'.$hash, [ 'path'=>$this->viewPath, 'cls'=>$type ]);
+		Yii::$app->session->set('dynamic-relations-'.$hash, [ 'path'=>$this->viewPath, 'cls'=>$type, 'parent' => $this->parentModel ]);
 
 		return $this->render('template', [
 			'title' => $this->title,
