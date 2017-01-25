@@ -1,6 +1,6 @@
 <?php
 use yii\helpers\Html;
-use zergbz1988\dynamicrelations\Module;
+use synatree\dynamicrelations\Module;
 
 /* @var $this \yii\web\View */
 /* @var $content string */

@@ -1,6 +1,6 @@
 <?php
 
-namespace zergbz1988\dynamicrelations;
+namespace synatree\dynamicrelations;
 
 use Yii;
 use yii\base\Widget;
