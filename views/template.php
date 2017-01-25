@@ -8,7 +8,7 @@
 <ul class="list-group" data-related-view="<?= $ajaxAddRoute; ?>">
 	<li class="list-group-item">
 		<a href="#" class="btn btn-success btn-sm add-dynamic-relation">
-			<i class="glyphicon glyphicon-plus"></i> Add
+			<i class="glyphicon glyphicon-plus"></i> Добавить
 		</a>
 	</li>
 
@@ -19,7 +19,7 @@
 	<li class="list-group-item">
 		<button type="button" class="close remove-dynamic-relation" aria-label="Remove"><span aria-hidden="true">&times;</span></button>		
 		<div class="dynamic-relation-container">
-			<?= $this->renderFile( $viewPath, [ 'model' => $model ]); ?>
+			<?= $this->renderFile( $viewPath, [ 'model' => $model, 'parentModel' => $parentModel ]); ?>
 		</div>
 	</li>	
 <?php

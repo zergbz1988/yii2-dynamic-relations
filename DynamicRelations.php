@@ -13,6 +13,7 @@ class DynamicRelations extends Widget
 	public $collection;
 	public $collectionType;
 	public $viewPath;
+    public $parentModel;
 
 	public function init(){
 		parent::init();
@@ -38,6 +39,7 @@ class DynamicRelations extends Widget
 			'title' => $this->title,
 			'collection' => $this->collection,
 			'viewPath' => $this->viewPath,
+            'parentModel' => $this->parentModel,
 			'ajaxAddRoute' => Url::toRoute(['dynamicrelations/load/template', 'hash'=>$hash]),
 		]);
 	}
